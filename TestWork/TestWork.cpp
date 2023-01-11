@@ -11,6 +11,7 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	
 	string StartWord;
+	cout << "Введите слово: ";
 	cin >> StartWord;
 	string NewWord = StartWord;
 	
